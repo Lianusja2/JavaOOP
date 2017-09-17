@@ -22,4 +22,5 @@ public class Rectangles {
       sum += rectangle.getSquare();}
       return sum;
     }
+
 }

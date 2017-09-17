@@ -31,7 +31,7 @@ public class Lines {
             }
             return longest;
         } else {
-            return null;
+            throw new IllegalStateException("List is empty. Can not find the longest line.");
         }
     }
 }
