@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * Created by inna.pshenychna on 10/1/2017.
  */
-public class People {
+public class People  {
 
     private List<Person> people;
 
@@ -67,4 +67,6 @@ public class People {
         }
 
     }
+
+
 }
