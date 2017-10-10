@@ -1,11 +1,12 @@
 package Lecture6;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by inna.pshenychna on 9/24/2017.
  */
-public class Film {
+public class Film implements Serializable {
 
     private String name;
     private int year;
